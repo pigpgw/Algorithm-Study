@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[이미지경로](https://github.com/ChoiYeoJin/Algorithm-Study/assets/17807025/dd0767a8-c278-4595-8763-e6a1076934ac)">
+  <img src="https://github.com/ChoiYeoJin/Algorithm-Study/assets/17807025/dd0767a8-c278-4595-8763-e6a1076934ac">
 </p>
 ***
 # ✏️ 알고리즘 스터디 문제 풀이 및 업로드 Repository

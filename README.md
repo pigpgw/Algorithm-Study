@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/ChoiYeoJin/Algorithm-Study/assets/17807025/dd0767a8-c278-4595-8763-e6a1076934ac">
-</p>
+
 ***
 # ✏️ 알고리즘 스터디 문제 풀이 및 업로드 Repository
 - elice track SW7기 알고리즘 스터디의 코드 업로드용 레포지토리입니다.

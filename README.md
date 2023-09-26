@@ -10,4 +10,4 @@
 # 📅 일정
 ||1|2|3|4|5|
 |-|-|-|-|-|-|
-|1주차 - 입출력 <br> (09.28~10.05)|Hello World  |A+B - 7  |최소, 최대  | 별 찍기 - 1 | 별 찍기 - 16 |
+|1주차 - 입출력 <br> (09.28~10.05)|[Hello World](https://www.acmicpc.net/problem/2557)  |[A+B - 7](https://www.acmicpc.net/problem/11021)  |[최소, 최대](https://www.acmicpc.net/problem/10818)  | [별 찍기 - 1](https://www.acmicpc.net/problem/2438) | [별 찍기 - 16](https://www.acmicpc.net/problem/10991) |

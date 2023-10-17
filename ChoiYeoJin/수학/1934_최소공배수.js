@@ -9,7 +9,7 @@ input = input.split("\r\n");
 input = input.slice(1, input.length);
 
 input.forEach((item) => {
-  const [a, b] = item.split(" ").map((e) => +e);
+  const [b, a] = item.split(" ").map((e) => +e);
   console.log(lcm(a, b));
 });
 

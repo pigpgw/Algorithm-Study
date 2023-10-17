@@ -5,11 +5,15 @@ let input = fs.readFileSync(__dirname + "\\input.txt").toString();
 
 input = input.split(" ").map((item) => BigInt(item));
 
-const [a, b] = [Math.max(input), Math.min(input)];
+const [a, b] = [input[1], input[0]];
 
 function gcd(a, b) {
-  if (b === BigInt(0)) return a;
-  return gcd(b, a % b);
+  while (b !== BigInt(0)) {
+    let r = a % b;
+    a = b;
+    b = r;
+  }
+  return a;
 }
 
-console.log("1".repeat(gcd(a, b)));
+console.log("1".repeat(Number(gcd(a, b))));

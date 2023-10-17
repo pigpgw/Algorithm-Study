@@ -1,3 +1,7 @@
+const fs = require('fs');
+//let input = fs.readFileSync(__dirname + '//input.txt').toString();
+let input = fs.readFileSync(__dirname + '\\input_math.txt').toString();//.trim();
+
 
 const inputValue = input.split(' ');
 const a = inputValue[0];
@@ -12,5 +16,4 @@ function lcm(a,b) {
     return a * b / gcd(a,b);
 }
 
-console.log(gcd(a, b)); 
 console.log(lcm(a, b)); 

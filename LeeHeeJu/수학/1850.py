@@ -5,6 +5,7 @@ import math
 
 a,b =map(int, sys.stdin.readline().split())
 num = math.gcd(a,b)
+print('1'*num)
 
 # def gcd(a,b):
 #     if(b == 0): return(a)
@@ -17,4 +18,3 @@ num = math.gcd(a,b)
 #             num = i
 #     return num;
 
-print('1'*num)

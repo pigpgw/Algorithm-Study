@@ -4,10 +4,10 @@ function gcd(a, b) {
     return gcd(b, a % b);
 }
 
-function loM(a,b) {
+function lcm(a,b) {
     return a * b / gcd(a,b);
 }
 
 console.log(gcd(40, 30));
-console.log(loM(15, 3));
+console.log(lcm(15, 3));
 

@@ -23,9 +23,6 @@ for (let i = 0; i < array.length; i++) {
     cols[i] = new Column(x, y, width, height);
 }
 
-//let moves=bubbleSort(array);
-//heapSort(array);
-
 function heapify(arr, n, i, moves) {
     let largest = i;
     const left = 2 * i + 1;

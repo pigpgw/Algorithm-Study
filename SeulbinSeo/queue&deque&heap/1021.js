@@ -1,6 +1,6 @@
 const fs = require('fs');
-//const input = fs.readFileSync("./dev/stdin").toString().trim().split("\n");
-const input = fs.readFileSync(__dirname + '\\input.txt').toString();
+const input = fs.readFileSync("./dev/stdin").toString().trim().split("\n");
+//const input = fs.readFileSync(__dirname + '\\input.txt').toString();
 
 const firstLine = input[0].split(' ');
 const boxSize = firstLine[0];
@@ -104,6 +104,7 @@ for(let i = 1; i<=boxSize; i++){
   deque.push_back(i);
 }
 
+
 let position = [];
 for(let i = 0; i<count; i++){
   position.push(findNumList[i])
@@ -119,7 +120,7 @@ while(position.length>0){
       deque.pop_front();
       position.shift();
   }else{
-      if(deque.size()+1>=2*position[0]){
+      if(deque.size()+1>=2*position[0]){ //앞으로 보내야 하는지 
           position = position.map(v=>{
               if(v==1){
                return   v=deque.size();
@@ -129,7 +130,7 @@ while(position.length>0){
           
           deque.push_back(deque.pop_front());
           
-      }else{
+      }else{ //뒤로 보내야 하는지
           position = position.map(v=>{
               if(v==deque.size()){
                return   v=1;

@@ -9,17 +9,15 @@
 import sys
 
 number = int(sys.stdin.readline())
-rtnList=[]
 rtnSum=0
 
 
 def getDivisor(n): #약수 구하는 함수
     divisior=[]
-
     for i in range(1,int(n**(1/2))+1):
         if (n % i ==0):
             divisior.append(i)
-            if(i**2 != n):
+            if(i**2 != n): #3*3=9,5*5=25를 걸러줌 
                 divisior.append(n//i)
     divisior.sort()
 

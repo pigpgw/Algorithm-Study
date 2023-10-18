@@ -1,5 +1,5 @@
 const fs = require("fs");
-let inputData = fs.readFileSync(0, 'utf8').toString().split('\n');
+let inputData = fs.readFileSync(__dirname + "\\input.txt").toString().split('\n');
 
 let sortData = inputData[1].split(' ').map(num => parseInt(num));
 

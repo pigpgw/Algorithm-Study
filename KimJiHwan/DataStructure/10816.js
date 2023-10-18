@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync(0, 'utf8').toString().trim().split('\n');
+const input = fs.readFileSync(__dirname + "\\input.txt").toString().trim().split('\n');
 
 const binarySearch = (arr, num) => {
   let start = 0;

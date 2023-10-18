@@ -1,5 +1,5 @@
 const fs = require('fs');
-let input = fs.readFileSync(0, 'utf8').toString().trim().split('\n');
+let input = fs.readFileSync(__dirname + "\\input.txt").toString().trim().split('\n');
 
 let list1 = input[0];
 list1 = list1.split(' ');

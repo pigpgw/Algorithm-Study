@@ -1,5 +1,5 @@
 const fs = require('fs');
-let inputData = fs.readFileSync(0, 'utf8').toString();
+let inputData = fs.readFileSync(__dirname + "\\input.txt").toString();
 
 let a = parseInt(inputData);
 

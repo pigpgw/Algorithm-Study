@@ -1,5 +1,5 @@
 let fs = require('fs');
-let input = fs.readFileSync(0, 'utf8').toString().split('\n');
+let input = fs.readFileSync(__dirname + "\\input.txt").toString().split('\n');
 
 const caseCount = Number(input[0]);
 
